@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConstantPhysics.exe" version="1.0.0.3" publicKeyToken="9ca5eb487a249a96" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CP-ICON.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConstantPhysics" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConstantPhysics.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConstantPhysics.exe" size="17452504">
+      <assemblyIdentity name="ConstantPhysics" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aFMAezU5xAtMpShFk8llx/rfjLwAju8ehIYozVBSwss=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConstantPhysics.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CP-ICON.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yH5UoFsElWjBs4oSIhCyY+gIkfsHJ+rKxV4iH2e5Z38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\L1Q3.txt" size="38">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tcn0G7XAxcjaq3hXhJkSsFJ4xJRkN6CI+DU8yz+XSu4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GCA651U\luke" issuerKeyHash="87b541af4591f4da103a79d0eb5534735ee6707b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CdC/plwH679WNiFZBPutb2tA1eVKzSF0vU81MWTNNLs=</DigestValue></Reference></SignedInfo><SignatureValue>hVLz40yB4eH/LEr6Ne96wo+RxuHHDVs1HSwd6BGOH83OfC8OEpIoDF+1rH/e0P02z5jgICeam1cu+yyuEqbV+3gg+mSO1IUmzXzasReYiBoBplJP8kaquuxifm34C5S/4Yc+DFkdgf+lbeJkRQsuW8N6+nhu5gbRShhAHrYMWv0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qOmHJTej4egpYjjHuThDc1qOxPnZG2QeXEsAVVxnm21WjQfrBQOj9dY3dzYxa/2rQ+fAElMAYgDoWOtfxQWUAn+kC59sDMJOqxu2meyT51b6MQPLVp0w+2j5E/gz1+XMMu3LySQWyGKW7utMHuZRd4yNrkAmY2gNUpIBXETBwws=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bb34cd6431354fbd7421cd4ae5d5406b6fadfb0459213656bfeb075ca6bfd009" Description="" Url=""><as:assemblyIdentity name="ConstantPhysics.exe" version="1.0.0.3" publicKeyToken="9ca5eb487a249a96" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GCA651U\luke</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iVf2JGnxmDY8bfsfIsY/lriD4BtJqixB7XBlksmFi9Y=</DigestValue></Reference></SignedInfo><SignatureValue>CxzRJwZsvPfmUpg+Cp9Ya4GEvO0b/r0vUPPff/5oBTRmXjXPWCWix9h6/rpqEkP0rSDRHJhYUYdywxKsg8is49Wy9aVX4W0YIawma0fVt/bdxMEh+Dpe57+jNVn02luGDbOpr3llUwfkY74Lt+/sayhhxz7rC7vGTs4/ODT/nrg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qOmHJTej4egpYjjHuThDc1qOxPnZG2QeXEsAVVxnm21WjQfrBQOj9dY3dzYxa/2rQ+fAElMAYgDoWOtfxQWUAn+kC59sDMJOqxu2meyT51b6MQPLVp0w+2j5E/gz1+XMMu3LySQWyGKW7utMHuZRd4yNrkAmY2gNUpIBXETBwws=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQfTYYPV7E+rpLd8wweeHE1TANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEcAQwBBADYANQAxAFUAXABsAHUAawBlMB4XDTE3MDMwMzIzMTYyNFoXDTE4MDMwNDA1MTYyNFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBHAEMAQQA2ADUAMQBVAFwAbAB1AGsAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqOmHJTej4egpYjjHuThDc1qOxPnZG2QeXEsAVVxnm21WjQfrBQOj9dY3dzYxa/2rQ+fAElMAYgDoWOtfxQWUAn+kC59sDMJOqxu2meyT51b6MQPLVp0w+2j5E/gz1+XMMu3LySQWyGKW7utMHuZRd4yNrkAmY2gNUpIBXETBwwsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCV/l8eVxKwH+6M30PGYOK8vNo2zqvEYpd1zAE5OYo6M8Q2SmAf/PBZjHkyE5+wqoz0I2WGe4wnmaiM1LJOWxM6ofqrPz2vDkzGtsXqIHLH8EJuUJY1AXTwFSRO3hGbBlvvMeT8mnLC5oyked4qTQvpRaOKv4p+QDq2P/UCRh3wmQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
